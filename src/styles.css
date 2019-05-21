@@ -1,0 +1,92 @@
+.flag {
+  border: 1px solid black;
+  width: 360px;
+  height: 120px;
+  box-shadow: 1px 5px 8px;
+}
+.bar {
+  height: 22.5px;
+  background-color: #b3ddf2;
+  position: relative;
+}
+.top {
+  position: relative;
+  top: 0px;
+}
+
+.bottom {
+  position: relative;
+  top: 72.5px;
+}
+
+.triangles {
+  position: absolute;
+  top: 45px;
+}
+.tri-1 {
+  position: relative;
+  left: 50px;
+}
+.tri-2 {
+  position: relative;
+  left: 125px;
+}
+.tri-3 {
+  position: relative;
+  left: 200px;
+}
+.tri-4 {
+  position: relative;
+  left: 275px;
+}
+.tri-5 {
+  position: relative;
+  left: 350px;
+}
+.tri-6 {
+  position: relative;
+  left: 425px;
+}
+
+.triangle {
+  position: absolute;
+}
+.tri {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 30px solid #ff0000;
+  position: inherit;
+}
+.rot-45 {
+  transform: rotate(45deg);
+  position: inherit;
+  left: 10px;
+}
+.rot-135 {
+  transform: rotate(135deg);
+  position: inherit;
+  left: 10px;
+  top: 15px;
+}
+.up {
+  position: inherit;
+  top: -10px;
+}
+.down {
+  transform: rotate(180deg);
+  position: inherit;
+  top: 20px;
+}
+.rot-45-back {
+  transform: rotate(-45deg);
+  position: inherit;
+  left: -10px;
+}
+.rot-135-back {
+  transform: rotate(-135deg);
+  position: inherit;
+  left: -10px;
+  top: 15px;
+}

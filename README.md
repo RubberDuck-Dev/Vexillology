@@ -1,2 +1,0 @@
-# Vexillology
-Created with CodeSandbox
